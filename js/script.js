@@ -29,3 +29,12 @@ var add = function(number1, number2) {
 
 // var result = BMI (height, weight);
 // alert(result);
+
+// celsius to fahrenheit converter
+
+// var celsius=parseInt(prompt("Enter C'"));
+// var convert= function(celsius){
+// return celsius + " C " + ((celsius * 9/5) + 32) +" F";
+// }
+// var result = convert(celsius);
+// alert(result);
