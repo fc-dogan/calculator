@@ -20,21 +20,21 @@ var add = function(number1, number2) {
     alert(result);
 
 // this is the code for a BMI calculator from the exercise
-//     var height=parseInt(prompt("How inches tall are you?"));
-// var weight=parseInt(prompt("How much do you weigh?"));
+    var height=parseInt(prompt("How inches tall are you?"));
+var weight=parseInt(prompt("How much do you weigh?"));
 
-// var BMI = function(height, weight){
-// return (weight * 703)/(height * height)
-// };
+var BMI = function(height, weight){
+return (weight * 703)/(height * height)
+};
 
-// var result = BMI (height, weight);
-// alert(result);
+var result = BMI (height, weight);
+alert(result);
 
-// celsius to fahrenheit converter
+celsius to fahrenheit converter
 
-// var celsius=parseInt(prompt("Enter C'"));
-// var convert= function(celsius){
-// return celsius + " C " + ((celsius * 9/5) + 32) +" F";
-// }
-// var result = convert(celsius);
-// alert(result);
+var celsius=parseInt(prompt("Enter C'"));
+var convert= function(celsius){
+return celsius + " C " + ((celsius * 9/5) + 32) +" F";
+}
+var result = convert(celsius);
+alert(result);
